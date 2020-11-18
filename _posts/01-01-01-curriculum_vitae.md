@@ -5,6 +5,7 @@ date: 2020-11-17
 description: Curriculum Vitae. # Add post description (optional)
 img: cv.jpg # Add image post (optional)
 fig-caption: Galapagos marine iguana # Add figcaption (optional)
+fig-caption-color: "white"
 ---
 <button class="w3-button w3-black" href="https://github.com/mrazomej/mrazomej_cv/blob/master/CV.pdf">
 Download as PDF
@@ -30,7 +31,10 @@ Kim and Ginger Caldwell endowed fellowship
 
 <p>2018 | <b>Caltech's Breakthrough campaign featured story</b>, 
 Caltech's Breakthrough campaign:
-<a href="https://breakthrough.caltech.edu/story/science-and-serendipity/">link</a> 
+<button href="https://breakthrough.caltech.edu/story/science-and-serendipity/">
+link
+<i class="fa fa-external-link" aria-hidden="true"></i>
+</button> 
 <span style="float:right;"><i>Caltech</i></span></p> 
 
 <p>2015 | <b>Amgen Graduate Fellowship</b>,
