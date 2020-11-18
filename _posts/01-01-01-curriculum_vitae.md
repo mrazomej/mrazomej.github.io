@@ -2,7 +2,7 @@
 layout: post
 title: Curriculum Vitae
 date: 2020-11-17
-description: Curriculum Vitae. # Add post description (optional)
+description: Curriculum Vitae, Last update - 2020-11-18. # Add post description (optional)
 img: cv.jpg # Add image post (optional)
 fig-caption: Galapagos marine iguana # Add figcaption (optional)
 fig-caption-color: "white"
@@ -152,3 +152,26 @@ paper website
 github repository
 <i class="fa fa-github-square" aria-hidden="true"></i>
 </button> -->
+
+## Talks & Posters
+
+### Talks
+
+**2019**
+
+- *``From Molecular Basis to Predictability and Control of Evolution''*, NORDITA, Stockholm, Sweden.
+
+> Title: Does evolution care about bits? Information as currency in nature's stock market.
+
+
+- *``Stochastic Physics in Biology''*, Gordon Research Conference, Santa Barbara, CA, USA.
+
+> Title: Does evolution care about bits? Information as currency in nature's stock market.
+
+### Posters
+
+**2018**
+
+- ASCB, San Diego, CA
+
+> Title: The physics of information processing of a simple genetic circuit.
