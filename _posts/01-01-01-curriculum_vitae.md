@@ -98,7 +98,7 @@ Scholes, Clarissa. *Figure 1 Theory Meets Figure 2 Experiments in the Study of G
   456-469.e10 (2018). [[open access PDF] <i class="fa fa-file-pdf-o"
   aria-hidden="true"></i>](https://www.sciencedirect.com/science/article/pii/S2405471218300577),
   [[paper website] <i class="fa fa-window-restore"
-  aria-hidden="true"></i>](http://www.rpgroup.caltech.edu/mwc_induction/) and
+  aria-hidden="true"></i>](http://www.rpgroup.caltech.edu/mwc_induction/), 
   [[github repository]<i class="fa fa-github-square"
   aria-hidden="true"></i>](http://www.github.com/rpgroup-pboc/mwc_induction)
 
