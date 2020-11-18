@@ -2,7 +2,8 @@
 layout: post
 title: Curriculum Vitae
 date: 2020-11-17
-description: Curriculum Vitae, Last update - 2020-11-18. # Add post description (optional)
+update: 2020-11-18
+description: A short window into what I have done professionally. # Add post description (optional)
 img: cv.jpg # Add image post (optional)
 fig-caption: Galapagos marine iguana # Add figcaption (optional)
 fig-caption-color: "white"
