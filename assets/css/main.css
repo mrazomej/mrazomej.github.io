@@ -1479,3 +1479,11 @@ a.newer-posts:hover {
     font-size: 21px;
   }
 }
+
+/* Extra stuff added by me */
+.center_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
