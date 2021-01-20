@@ -68,7 +68,17 @@ Summer Undergraduate Research Fellowship
 
 ### *Forthcoming Publications and Preprints*
 
-Morrison, M. J., **Razo-Mejia, M.** & Phillips, R. *Reconciling Kinetic and Equilibrium Models of Bacterial Transcription*. ArXiv (2020).
+### *Peer-reviewed Publications*
+
+**2021**
+
+Morrison, M. J., **Razo-Mejia, M.** & Phillips, R. *Reconciling kinetic and thermodynamic models of bacterial transcription*. PLoS Comp. Bio. (2021).
+<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008572">
+<button>
+open access PDF
+<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+</button>
+</a>
 <a href="https://github.com/RPGroup-PBoC/bursty_transcription">
 <button>
 github repository
@@ -76,7 +86,6 @@ github repository
 </button>
 </a>
 
-### *Peer-reviewed Publications*
 
 **2020**
 
