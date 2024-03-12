@@ -1,0 +1,47 @@
+---
+about:
+  template: jolla
+  id: about-block
+  image: "img/manuel_razo.jpg"
+  links:
+    - icon: twitter-x
+      text: Twitter
+      href: https://github.com/mrazomej
+    - icon: github
+      text: Github
+      href: https://github.com/mrazomej
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/manuel-razo-mejia-506b4a148/
+    - icon: globe2
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=wktkMB0AAAAJ&hl=en
+    # - icon: envelope
+    #   text: Email
+    #   href: "mailto:mail.marvinschmitt@gmail.com"  
+---
+
+::: {#about-block}
+:::
+
+# About me
+
+I am a [2021 Schmidt Science
+Fellow](https://schmidtsciencefellows.org/fellow/manuel-razo-mejia/) working in
+the lab of [Dmitri Petrov](https://petrov.stanford.edu/) at [Stanford
+University](http://stanford.edu). I also closely collaborate with [Madhav
+Mani](https://www.madhavmani.com) at Northwestern University. My two biggest
+scientific passions are Evolution and the Physics of Living Systems. Although
+these two topics might seem very different, I believe that understanding
+evolution requires physics-like approaches, especially techniques borrowed from
+statistical physics and complex systems.
+
+I did my [Ph.D.](https://mrazomej.github.io/phd) with [Rob
+Phillips](http://rpgroup.caltech.edu/) at [Caltech](http://caltech.edu), working
+at the interface between physics and biology, where I explored how cells can
+gather information from the environment, process it, and build a response to
+keep them alive.
+
+Outside of my research, I really like reading popular science books, and I'm
+starting a collection of science-based essays about different topics (more on
+that soon!). In addition, I love hip-hop, backpacking, and a good Mezcal.

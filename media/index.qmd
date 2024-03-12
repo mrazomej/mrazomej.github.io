@@ -1,0 +1,72 @@
+---
+title: Media Features
+---
+
+I've been fortunate enough throughout my career to have either my story, my
+science, or the outreach projects I've been a part of featured in different
+videos or articles. Here is a compilation of these featured appearances.
+
+## MITSloan (Spanish)
+
+```{=html}
+<a href="https://mitsloanreview.mx/universitarios/el-estudiante-mexicano-que-siguio-su-pasion-por-la-ciencia-y-llego-a-stanford/" style="text-decoration: none; color: black;">
+  <div style="display: flex; align-items: center; border: 1px solid #ddd; padding: 10px;">
+    <img src="https://mitsloanreview.mx/wp-content/uploads/2023/11/manel-razo-mejia-el-estudiante-mexicano-que-siguio-su-pasion-por-la-ciencia-stanford.jpg" style="width: 300px; height: auto; margin-right: 10px;">
+    <div>
+      <h4 style="margin: 0;">El estudiante mexicano que siguió su pasión por la
+      ciencia y llegó a Stanford</h4>
+      <p>Manuel Razo Mejía convirtió una pasión en su forma de vida. El joven
+      que estudiaba ciencia todos los sábados hoy realiza un postdoctorado en
+      biología evolutiva en la Universidad de Stanford. Esta su historia de
+      éxito.</p>
+    </div>
+  </div>
+</a>
+```
+## We are Schmidt Science Fellows
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kuY8g-dTDMM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## BBC Ideas
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yDrI8q98YpU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Quanta Magazine
+
+```{=html}
+<a href="https://www.quantamagazine.org/the-math-that-tells-cells-what-they-are-20190313/" style="text-decoration: none; color: black;">
+  <div style="display: flex; align-items: center; border: 1px solid #ddd; padding: 10px;">
+    <img src="https://d2r55xnwy6nx47.cloudfront.net/uploads/2019/03/CellPath_lede_fullwidth.jpg" style="width: 300px; height: auto; margin-right: 10px;">
+    <div>
+      <h4 style="margin: 0;">The Math That Tells Cells What They Are</h4>
+      <p>Quanta Magazine - An exploration of the mathematical models that underpin cellular organization and development.</p>
+    </div>
+  </div>
+</a>
+```
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0JGJjamlV5M4DoWTuXiL4Q?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+## Caltech's 2017 Convocation
+
+- Starting at 13:40
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c-8apQJDDVo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## *iBiology'*s seminar
+
+- English version
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AtQZo7VRDmc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- Spanish version
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mrTNNXdkaOE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## No Borders: Science and Caltech
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VYnJH97mxiQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Caltech's Breakthrough Campaign
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TWbMNgADDHA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

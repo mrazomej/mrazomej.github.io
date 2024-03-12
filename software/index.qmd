@@ -1,0 +1,30 @@
+---
+title: Software
+---
+
+# `BarBay.jl`
+
+<img src="../img/barbay.png" style="height: 25%; width: 25%; object-fit: contain" onclick="window.open('https://mrazomej.github.io/BarBay.jl/stable/', 'blank');"/>
+
+<a href="https://www.biorxiv.org/content/10.1101/2023.10.14.562365v1">
+open-access PDF
+<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+</a> | 
+<a href="https://mrazomej.github.io/bayesian_fitness/paper.html">
+paper website
+<i class="fa fa-window-restore" aria-hidden="true"></i>
+</a> | 
+<a href="https://mrazomej.github.io/BarBay.jl/stable/">
+documentation
+<i class="fa fa-laptop" aria-hidden="true"></i>
+</a>
+
+With modern barcoding and sequencing technologies, high-throughput pooled assays
+have become a popular experimental platform in experimental evolution. In these
+experiments, a population of uniquely barcoded cellular lineages is grown over
+multiple growth-dilution cycles. This produces large amounts of barcode count
+data to infer the relative fitness of each lineage. `BarBay.jl` is a `Julia`
+software package specially designed for the analysis of such data. Based on
+variational Bayesian inference, it provides a flexible and efficient framework
+for the estimation of fitness parameters with principled uncertainty
+quantification.
