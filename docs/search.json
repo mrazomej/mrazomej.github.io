@@ -63,25 +63,11 @@
     "text": "Caltech’s Breakthrough Campaign"
   },
   {
-    "objectID": "cv/index.html",
-    "href": "cv/index.html",
-    "title": "Curriculum vitae",
+    "objectID": "software/index.html",
+    "href": "software/index.html",
+    "title": "Software",
     "section": "",
-    "text": "Download current CV\n  \n\n\n  \n\n\nView the tutorial for this template (+ download link)"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About me",
-    "section": "",
-    "text": "Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Google Scholar\n  \n\n\n\n\nAbout me\nI am a 2021 Schmidt Science Fellow working in the lab of Dmitri Petrov at Stanford University. I also closely collaborate with Madhav Mani at Northwestern University. My two biggest scientific passions are Evolution and the Physics of Living Systems. Although these two topics might seem very different, I believe that understanding evolution requires physics-like approaches, especially techniques borrowed from statistical physics and complex systems.\nI did my Ph.D. with Rob Phillips at Caltech, working at the interface between physics and biology, where I explored how cells can gather information from the environment, process it, and build a response to keep them alive.\nOutside of my research, I really like reading popular science books, and I’m starting a collection of science-based essays about different topics (more on that soon!). In addition, I love hip-hop, backpacking, and a good Mezcal."
-  },
-  {
-    "objectID": "publications/index.html",
-    "href": "publications/index.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Preprints\n2023\n\nRazo-Mejia, M., Mani, M. & Petrov, D. Bayesian inference of relative fitness on high-throughput pooled competition assays. Preprint. (2023)  open-access PDF   |  paper website   |  github repository   |  BarBay.jl documentation  \n\n\n\nPeer-reviewed Publications\n2021\n\nMorrison, M. J., Razo-Mejia, M. & Phillips, R. Reconciling kinetic and thermodynamic models of bacterial transcription. PLoS Comp. Bio. (2021).  open-access PDF   |  github repository  \n\n2020\n\nRazo-Mejia, M. et al. First-principles prediction of the information processing capacity of a simple genetic circuit. Phys. Rev. E 102, 022404 (2020).  open-access PDF   |  paper website   |  github repository  \n\n2019\n\nChure, G., Razo-Mejia, M., et al. Predictive shifts in free energy couple mutations to their phenotypic consequences. PNAS 201907869 (2019) doi:10.1073/pnas.1907869116.  open-access PDF   |  paper website   |  github repository  \nPhillips, R. Belliveau, N., Chure, G., Garcia, H., Razo-Mejia, M., & Scholes, Clarissa. Figure 1 Theory Meets Figure 2 Experiments in the Study of Gene Expression. Annu. Rev. Biophys. 48, 121–163 (2019).  link  \nFoster, P. J., Razo-Mejia, M. & Phillips, R. Measuring the Energetic Costs of Embryonic Development. Dev. Cell 48, 591–592 (2019).  link  \n\n2018\n\nRazo-Mejia, M. et al. Tuning Transcriptional Regulation through Signaling: A Predictive Theory of Allosteric Induction. Cell Syst. 6, 456-469.e10 (2018).  open-access PDF   |  paper website   |  github repository  \n\n2015\n\nZelcbuch, L., Razo-Mejia, M., et al. An In Vivo Metabolic Approach for Deciphering the Product Specificity of Glycerate Kinase Proves that Both E. coli’s Glycerate Kinases Generate 2-Phosphoglycerate. PLoS One 10, e0122957 (2015).  open-access PDF  \n\n2014\n\nRazo-Mejia, M. et al. Comparison of the theoretical and real-world evolutionary potential of a genetic circuit. Phys. Biol. 11, 026005 (2014).  link"
+    "text": "BarBay.jl\n\n open-access PDF   |  paper website   |  documentation  \nWith modern barcoding and sequencing technologies, high-throughput pooled assays have become a popular experimental platform in experimental evolution. In these experiments, a population of uniquely barcoded cellular lineages is grown over multiple growth-dilution cycles. This produces large amounts of barcode count data to infer the relative fitness of each lineage. BarBay.jl is a Julia software package specially designed for the analysis of such data. Based on variational Bayesian inference, it provides a flexible and efficient framework for the estimation of fitness parameters with principled uncertainty quantification."
   },
   {
     "objectID": "projects/index.html",
@@ -105,17 +91,24 @@
     "text": "(2018) Quantitative modeling of gene regulation via allosteric proteins\n\n open-access PDF   |  paper website   |  github repository  \nDespite lacking a nervous system, single bacterial cells can make decisions given signals from their surroundings. How can individual molecules sense and transmit these signals? The answer comes from one of the crowning scientific achievements of the past century: allostery. Simply stated, allostery is the property of certain macromolecules to exist in multiple conformations with different properties. For example, transcription factors —proteins that control gene expression— can be active (able to bind the DNA) or inactive (unable to bind DNA) depending on the concentration of a signaling molecule.\nIn a 2018 paper, our socialist team wrote down a theoretical model that predicts the expression level of a gene regulated by an allosteric transcription factor. We then tested the model experimentally, showing that the model was able to predict how changes to the regulation of the gene translates to changes in the cellular response."
   },
   {
-    "objectID": "software/index.html",
-    "href": "software/index.html",
-    "title": "Software",
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications",
     "section": "",
-    "text": "BarBay.jl\n\n open-access PDF   |  paper website   |  documentation  \nWith modern barcoding and sequencing technologies, high-throughput pooled assays have become a popular experimental platform in experimental evolution. In these experiments, a population of uniquely barcoded cellular lineages is grown over multiple growth-dilution cycles. This produces large amounts of barcode count data to infer the relative fitness of each lineage. BarBay.jl is a Julia software package specially designed for the analysis of such data. Based on variational Bayesian inference, it provides a flexible and efficient framework for the estimation of fitness parameters with principled uncertainty quantification."
+    "text": "Preprints\n\n\nPeer-reviewed Publications\n2024\n\nRazo-Mejia, M., Mani, M. & Petrov, D. Bayesian inference of relative fitness on high-throughput pooled competition assays. PLoS Comp. Bio. (2023).  open-access PDF   |  paper website   |  github repository   |  BarBay.jl documentation  \n\n2021\n\nMorrison, M. J., Razo-Mejia, M. & Phillips, R. Reconciling kinetic and thermodynamic models of bacterial transcription. PLoS Comp. Bio. (2021).  open-access PDF   |  github repository  \n\n2020\n\nRazo-Mejia, M. et al. First-principles prediction of the information processing capacity of a simple genetic circuit. Phys. Rev. E 102, 022404 (2020).  open-access PDF   |  paper website   |  github repository  \n\n2019\n\nChure, G., Razo-Mejia, M., et al. Predictive shifts in free energy couple mutations to their phenotypic consequences. PNAS 201907869 (2019) doi:10.1073/pnas.1907869116.  open-access PDF   |  paper website   |  github repository  \nPhillips, R. Belliveau, N., Chure, G., Garcia, H., Razo-Mejia, M., & Scholes, Clarissa. Figure 1 Theory Meets Figure 2 Experiments in the Study of Gene Expression. Annu. Rev. Biophys. 48, 121–163 (2019).  link  \nFoster, P. J., Razo-Mejia, M. & Phillips, R. Measuring the Energetic Costs of Embryonic Development. Dev. Cell 48, 591–592 (2019).  link  \n\n2018\n\nRazo-Mejia, M. et al. Tuning Transcriptional Regulation through Signaling: A Predictive Theory of Allosteric Induction. Cell Syst. 6, 456-469.e10 (2018).  open-access PDF   |  paper website   |  github repository  \n\n2015\n\nZelcbuch, L., Razo-Mejia, M., et al. An In Vivo Metabolic Approach for Deciphering the Product Specificity of Glycerate Kinase Proves that Both E. coli’s Glycerate Kinases Generate 2-Phosphoglycerate. PLoS One 10, e0122957 (2015).  open-access PDF  \n\n2014\n\nRazo-Mejia, M. et al. Comparison of the theoretical and real-world evolutionary potential of a genetic circuit. Phys. Biol. 11, 026005 (2014).  link"
   },
   {
-    "objectID": "cv_bkup/index.html",
-    "href": "cv_bkup/index.html",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About me",
+    "section": "",
+    "text": "Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Google Scholar\n  \n\n\n\n\nAbout me\nI am a 2021 Schmidt Science Fellow working in the lab of Dmitri Petrov at Stanford University. I also closely collaborate with Madhav Mani at Northwestern University. My two biggest scientific passions are Evolution and the Physics of Living Systems. Although these two topics might seem very different, I believe that understanding evolution requires physics-like approaches, especially techniques borrowed from statistical physics and complex systems.\nI did my Ph.D. with Rob Phillips at Caltech, working at the interface between physics and biology, where I explored how cells can gather information from the environment, process it, and build a response to keep them alive.\nOutside of my research, I really like reading popular science books, and I’m starting a collection of science-based essays about different topics (more on that soon!). In addition, I love hip-hop, backpacking, and a good Mezcal."
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
     "title": "Curriculum vitae",
     "section": "",
-    "text": "{css echo=FALSE} .embed-container {     position: relative;     padding-bottom: 129%;     height: 0;     overflow: hidden;     max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed {     position: absolute;     top: 0;     left: 0;     width: 100%;     height: 100%; }"
+    "text": "Download current CV\n  \n\n\n  \n\n\nView the tutorial for this template (+ download link)"
   }
 ]
