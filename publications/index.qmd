@@ -4,11 +4,14 @@ title: Publications
 
 ### *Preprints*
 
-**2023**
+### *Peer-reviewed Publications*
+
+**2024**
 
 - **Razo-Mejia, M**., Mani, M. & Petrov, D. *Bayesian inference of relative
-fitness on high-throughput pooled competition assays*. **Preprint.** (2023)
-<a href="https://www.biorxiv.org/content/10.1101/2023.10.14.562365v1">
+fitness on high-throughput pooled competition assays*. **PLoS Comp. Bio.**
+(2023).
+<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011937">
 open-access PDF
 <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
 </a> | 
@@ -24,8 +27,6 @@ github repository
 BarBay.jl documentation
 <i class="fa fa-laptop" aria-hidden="true"></i>
 </a>
-
-### *Peer-reviewed Publications*
 
 **2021**
 
