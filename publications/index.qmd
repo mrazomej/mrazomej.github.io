@@ -8,9 +8,24 @@ title: Publications
 
 **2024**
 
+- **Razo-Mejia, M.**. *AutoEncoderToolkit.jl: A Julia package for training
+(Variational) Autoencoders*. **Journal of Open Source Software** (2024).
+<a href="https://www.theoj.org/joss-papers/joss.06794/10.21105.joss.06794.pdf">
+open-access PDF
+<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+</a> | 
+<a href="https://github.com/mrazomej/AutoEncoderToolkit.jl">
+github repository
+<i class="fa fa-github-square" aria-hidden="true"></i>
+</a> | 
+<a href="https://mrazomej.github.io/AutoEncoderToolkit.jl/stable/">
+AutoEncoderToolkit.jl documentation
+<i class="fa fa-laptop" aria-hidden="true"></i>
+</a>
+
 - **Razo-Mejia, M**., Mani, M. & Petrov, D. *Bayesian inference of relative
 fitness on high-throughput pooled competition assays*. **PLoS Comp. Bio.**
-(2023).
+(2024).
 <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011937">
 open-access PDF
 <i class="fa fa-file-pdf-o" aria-hidden="true"></i>

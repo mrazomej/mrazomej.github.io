@@ -40,8 +40,5 @@ I did my [Ph.D.](https://mrazomej.github.io/phd) with [Rob
 Phillips](http://rpgroup.caltech.edu/) at [Caltech](http://caltech.edu), working
 at the interface between physics and biology, where I explored how cells can
 gather information from the environment, process it, and build a response to
-keep them alive.
-
-Outside of my research, I really like reading popular science books, and I'm
-starting a collection of science-based essays about different topics (more on
-that soon!). In addition, I love hip-hop, backpacking, and a good Mezcal.
+keep them alive. If you are interested, you can check [my
+thesis](https://mrazomej.github.io/phd/).

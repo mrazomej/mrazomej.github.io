@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -163,16 +163,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="autoencodertoolkit.jl" class="level1">
+<h1><code>AutoEncoderToolkit.jl</code></h1>
+<p><img src="../img/autoencodertoolkit.png" style="height: 25%; width: 25%; object-fit: contain" onclick="window.open('https://mrazomej.github.io/AutoEncoderToolkit.jl/stable/', 'blank');"></p>
+<p><a href="https://www.theoj.org/joss-papers/joss.06794/10.21105.joss.06794.pdf"> open-access PDF <i class="fa fa-file-pdf-o" aria-hidden="true"></i> </a> | <a href="https://github.com/mrazomej/AutoEncoderToolkit.jl"> github repository <i class="fa fa-github-square" aria-hidden="true"></i> </a> | <a href="https://mrazomej.github.io/AutoEncoderToolkit.jl/stable/"> documentation <i class="fa fa-laptop" aria-hidden="true"></i> </a></p>
+<p>With the advent of generative models, the field of unsupervised learning has exploded in the last decade. One of the most popular generative models is the variational autoencoder (VAE). VAEs assume the existence of a joint probability distribution between a high-dimensional data space and a lower-dimensional latent space. The VAE parametrizes this joint distribution with two neural networks–an encoder and a decoder–using a variational inference approach. This approach allows for the model to approximate the underlying low-dimensional structure that generated the observed data and generate new data samples by sampling from the learned latent space. Several variations of the original VAE have been proposed to extend its capabilities and tackle different problems. Here, we present <code>AutoEncoderToolkit.jl</code>, a <code>Julia</code> package for training VAEs and its extensions. The package is built on top of the <a href="https://github.com/FluxML/Flux.jl">Flux.jl</a> deep learning library and provides a simple and flexible interface for training different flavors of VAEs. Furthermore, the package provides a set of utilities for the geometric analysis of the learned latent space.</p>
+</section>
 <section id="barbay.jl" class="level1">
 <h1><code>BarBay.jl</code></h1>
 <p><img src="../img/barbay.png" style="height: 25%; width: 25%; object-fit: contain" onclick="window.open('https://mrazomej.github.io/BarBay.jl/stable/', 'blank');"></p>
 <p><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011937"> open-access PDF <i class="fa fa-file-pdf-o" aria-hidden="true"></i> </a> | <a href="https://mrazomej.github.io/bayesian_fitness/paper.html"> paper website <i class="fa fa-window-restore" aria-hidden="true"></i> </a> | <a href="https://mrazomej.github.io/BarBay.jl/stable/"> documentation <i class="fa fa-laptop" aria-hidden="true"></i> </a></p>
 <p>With modern barcoding and sequencing technologies, high-throughput pooled assays have become a popular experimental platform in experimental evolution. In these experiments, a population of uniquely barcoded cellular lineages is grown over multiple growth-dilution cycles. This produces large amounts of barcode count data to infer the relative fitness of each lineage. <code>BarBay.jl</code> is a <code>Julia</code> software package specially designed for the analysis of such data. Based on variational Bayesian inference, it provides a flexible and efficient framework for the estimation of fitness parameters with principled uncertainty quantification.</p>
-</section>
-<section id="autoencodertoolkit.jl" class="level1">
-<h1><code>AutoEncoderToolkit.jl</code></h1>
-<p><a href="https://mrazomej.github.io/AutoEncoderToolkit.jl/stable/"> documentation <i class="fa fa-laptop" aria-hidden="true"></i> </a></p>
-<p>With the advent of generative models, the field of unsupervised learning has exploded in the last decade. One of the most popular generative models is the variational autoencoder (VAE). VAEs assume the existence of a joint probability distribution between a high-dimensional data space and a lower-dimensional latent space. The VAE parametrizes this joint distribution with two neural networks–an encoder and a decoder–using a variational inference approach. This approach allows for the model to approximate the underlying low-dimensional structure that generated the observed data and generate new data samples by sampling from the learned latent space. Several variations of the original VAE have been proposed to extend its capabilities and tackle different problems. Here, we present <code>AutoEncoderToolkit.jl</code>, a <code>Julia</code> package for training VAEs and its extensions. The package is built on top of the <a href="https://github.com/FluxML/Flux.jl">Flux.jl</a> deep learning library and provides a simple and flexible interface for training different flavors of VAEs. Furthermore, the package provides a set of utilities for the geometric analysis of the learned latent space.</p>
 
 
 </section>
