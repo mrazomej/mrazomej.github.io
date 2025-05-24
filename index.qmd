@@ -4,9 +4,12 @@ about:
   id: about-block
   image: "img/manuel_razo.jpg"
   links:
+    - icon: bi-bluesky
+      text: BlueSky
+      href: https://bsky.app/profile/mrazo.bsky.social
     - icon: twitter-x
       text: Twitter
-      href: https://github.com/mrazomej
+      href: https://twitter.com/mrazomej
     - icon: github
       text: Github
       href: https://github.com/mrazomej
@@ -16,9 +19,6 @@ about:
     - icon: globe2
       text: Google Scholar
       href: https://scholar.google.com/citations?user=wktkMB0AAAAJ&hl=en
-    # - icon: envelope
-    #   text: Email
-    #   href: "mailto:mail.marvinschmitt@gmail.com"  
 ---
 
 ::: {#about-block}
@@ -26,19 +26,25 @@ about:
 
 # About me
 
-I am a [2021 Schmidt Science
-Fellow](https://schmidtsciencefellows.org/fellow/manuel-razo-mejia/) working in
-the lab of [Dmitri Petrov](https://petrov.stanford.edu/) at [Stanford
-University](http://stanford.edu). I also closely collaborate with [Madhav
-Mani](https://www.madhavmani.com) at Northwestern University. My two biggest
-scientific passions are Evolution and the Physics of Living Systems. Although
-these two topics might seem very different, I believe that understanding
-evolution requires physics-like approaches, especially techniques borrowed from
-statistical physics and complex systems.
+I am a computational scientist specializing in machine learning and statistical
+inference for biological data analysis, currently working in the lab of [Dmitri
+Petrov](https://petrov.stanford.edu/) at [Stanford
+University](http://stanford.edu) and collaborating with [Madhav
+Mani](https://www.madhavmani.com) at Northwestern University. My research
+focuses on developing novel computational approaches that combine dynamical
+systems theory, biophysical modeling, and deep learning techniques to extract
+actionable insights from complex multi-scale biological datasets.
 
-I did my [Ph.D.](https://mrazomej.github.io/phd) with [Rob
-Phillips](http://rpgroup.caltech.edu/) at [Caltech](http://caltech.edu), working
-at the interface between physics and biology, where I explored how cells can
-gather information from the environment, process it, and build a response to
-keep them alive. If you are interested, you can check [my
-thesis](https://mrazomej.github.io/phd/).
+I am particularly passionate about Evolution and the Physics of Living Systems,
+believing that understanding evolution requires physics-like approaches,
+especially techniques borrowed from statistical physics and complex systems. My
+work aims to create robust, scalable workflows that bridge fundamental cellular
+principles with rigorous data-driven decision making—all implemented with strong
+software engineering practices to ensure reproducibility and deployment
+readiness.
+
+I completed my [Ph.D.](https://mrazomej.github.io/phd) with [Rob
+Phillips](http://rpgroup.caltech.edu/) at [Caltech](http://caltech.edu), where I
+explored how cells gather information from the environment, process it, and
+build responses to maintain homeostasis. You can learn more about this work in
+[my thesis](https://mrazomej.github.io/phd/).

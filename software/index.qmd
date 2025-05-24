@@ -2,21 +2,50 @@
 title: Software
 ---
 
+# `SCRIBE` (work in progress)
+
+<!-- <img src="../img/scribe.png" style="height: 25%; width: 25%; object-fit: contain" onclick="window.open('https://mrazomej.github.io/scribe/', 'blank');"/> -->
+
+<a href="https://github.com/mrazomej/scribe">
+github repository
+<i class="bi bi-github" aria-hidden="true"></i>
+</a> | 
+<a href="https://mrazomej.github.io/scribe/">
+documentation
+<i class="bi bi-laptop" aria-hidden="true"></i>
+</a>
+
+Single-cell RNA sequencing (scRNA-seq) has revolutionized our ability to study
+cellular heterogeneity, but analyzing this data comes with unique statistical
+challenges. `SCRIBE` (Single-Cell RNA-Seq Inference using Bayesian Estimation)
+is a Python package that addresses these challenges through a novel approach
+using variational inference based on Numpyro—a JAX-based probabilistic
+programming library. What sets `SCRIBE` apart is its comprehensive suite of
+probabilistic models specifically designed for scRNA-seq count data, including
+the innovative Negative Binomial-Dirichlet Multinomial (NBDM) model that
+simultaneously accounts for both count magnitudes and proportions. The package
+offers multiple model variants to handle common technical artifacts in scRNA-seq
+data, such as zero-inflation and variable capture efficiency, while providing
+GPU acceleration for efficient analysis of large-scale datasets. `SCRIBE`
+seamlessly integrates with the AnnData ecosystem and includes visualization
+tools for posterior analysis, making it a powerful solution for researchers
+working with single-cell transcriptomics data.
+
 # `AutoEncoderToolkit.jl`
 
 <img src="../img/autoencodertoolkit.png" style="height: 25%; width: 25%; object-fit: contain" onclick="window.open('https://mrazomej.github.io/AutoEncoderToolkit.jl/stable/', 'blank');"/>
 
 <a href="https://www.theoj.org/joss-papers/joss.06794/10.21105.joss.06794.pdf">
 open-access PDF
-<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+<i class="bi bi-file-pdf" aria-hidden="true"></i>
 </a> | 
 <a href="https://github.com/mrazomej/AutoEncoderToolkit.jl">
 github repository
-<i class="fa fa-github-square" aria-hidden="true"></i>
+<i class="bi bi-github" aria-hidden="true"></i>
 </a> | 
 <a href="https://mrazomej.github.io/AutoEncoderToolkit.jl/stable/">
 documentation
-<i class="fa fa-laptop" aria-hidden="true"></i>
+<i class="bi bi-laptop" aria-hidden="true"></i>
 </a>
 
 With the advent of generative models, the field of unsupervised learning has
@@ -42,15 +71,15 @@ of the learned latent space.
 
 <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011937">
 open-access PDF
-<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+<i class="bi bi-file-pdf" aria-hidden="true"></i>
 </a> | 
 <a href="https://mrazomej.github.io/bayesian_fitness/paper.html">
 paper website
-<i class="fa fa-window-restore" aria-hidden="true"></i>
+<i class="bi bi-globe" aria-hidden="true"></i>
 </a> | 
 <a href="https://mrazomej.github.io/BarBay.jl/stable/">
 documentation
-<i class="fa fa-laptop" aria-hidden="true"></i>
+<i class="bi bi-laptop" aria-hidden="true"></i>
 </a>
 
 With modern barcoding and sequencing technologies, high-throughput pooled assays

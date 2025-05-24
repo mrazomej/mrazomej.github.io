@@ -7,12 +7,12 @@ website:
   # Image for the website
   image: img/manuel_razo.jpg
   # Icon for the website
-  favicon: img/darwin_tree.png
+  # favicon: img/darwin_tree.png
   
   # start of the navigation bar at the top of the website
   navbar:
     pinned: true
-    logo: /img/logo.png
+    # logo: /img/logo.png
 
     # sub-pages
     left:
@@ -20,7 +20,7 @@ website:
         href: projects/index.qmd
       - text: "Publications"
         href: publications/index.qmd
-      - text: "Software"
+      - text: "Scientific Software"
         href: software/index.qmd
       - text: "CV"
         href: cv/index.qmd
@@ -31,16 +31,12 @@ website:
     right:
       - icon: github
         href: https://github.com/mrazomej
+      - icon: bi-bluesky
+        href: https://bsky.app/profile/mrazo.bsky.social
       - icon: twitter-x
         href: https://twitter.com/mrazomej
       - icon: linkedin
         href: https://www.linkedin.com/in/manuel-razo-mejia-506b4a148/
-      # - icon: envelope
-      #   aria-label: email
-      #   href: "mailto:mail.marvinschmitt@gmail.com"  
-  
-  
-  
 
   # Set navigation bar
   search: 
@@ -49,11 +45,7 @@ website:
   # Set page-footer 
   page-footer: 
     left: |
-      <span class="faux-block">&#169; 2024 Manuel Razo-Mejia CC BY-SA 4.0</span>
-    # center: |
-    #   <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
-    # right: |
-    #   <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span>
+      <span class="faux-block">&#169; 2025 Manuel Razo-Mejia CC BY-SA 4.0</span>
 
 # Define project type
 project:
@@ -81,13 +73,13 @@ format:
     # Define two themes: light and dark
     theme: 
       light:
-        - flatly
+        - cosmo
         - html/style.scss
       dark:
         - darkly
         - html/style.scss
     toc: false
-    code-link: true
+    code-link: false
     anchor-sections: true
     fig-cap-location: margin
     reference-location: margin
