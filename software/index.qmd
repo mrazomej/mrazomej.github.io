@@ -6,7 +6,7 @@ description: "Research tools for Bayesian inference and representation learning 
 I build tools that make scientific methods usable beyond a single analysis. My work emphasizes explicit assumptions, reusable interfaces, and documentation that connects the implementation to the underlying model.
 
 ::: {.software-entry}
-## BarBay.jl {#barbay}
+## [BarBay.jl](https://mrazomej.github.io/BarBay.jl/stable/) {#barbay}
 
 Bayesian estimation of relative fitness from high-throughput pooled competition assays. I developed the method and authored the Julia package.
 
@@ -22,7 +22,7 @@ DNA barcode counts → Bayesian inference → relative fitness with uncertainty
 :::
 
 ::: {.software-entry}
-## AutoEncoderToolkit.jl {#autoencodertoolkit}
+## [AutoEncoderToolkit.jl](https://mrazomej.github.io/AutoEncoderToolkit.jl/stable/) {#autoencodertoolkit}
 
 A Julia package for training variational autoencoders and their extensions. I authored the package, which is published in the *Journal of Open Source Software*.
 

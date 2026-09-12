@@ -14,7 +14,7 @@ Bayesian inference · DNA barcode assays · PLoS Computational Biology, 2024
 
 How confidently can we distinguish the fitness of cellular lineages in a pooled competition experiment? Barcode counts offer a powerful readout, but biological and measurement noise complicate their interpretation.
 
-I developed a Bayesian framework for relative fitness inference and implemented it in **BarBay.jl**. The framework propagates uncertainty and uses variational inference to make analysis practical across many barcodes. Extensions handle multiple environments, experimental replicates, and barcodes linked to the same genotype.
+I developed a Bayesian framework for relative fitness inference and implemented it in [**BarBay.jl**](https://mrazomej.github.io/BarBay.jl/stable/). The framework propagates uncertainty and uses variational inference to make analysis practical across many barcodes. Extensions handle multiple environments, experimental replicates, and barcodes linked to the same genotype.
 
 ![From pooled growth and DNA barcode sequencing to a probabilistic model of lineage fitness. The model carries uncertainty through the analysis rather than treating observed counts as exact.](../img/fitness-assays.png)
 

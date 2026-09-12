@@ -67,7 +67,7 @@ Experimental evolution · PLoS Computational Biology, 2024
 :::
 
 ### [Measuring fitness with uncertainty](projects/index.qmd#fitness)
-Bayesian inference for pooled competition assays, from DNA barcode counts to relative fitness estimates. Released as BarBay.jl.
+Bayesian inference for pooled competition assays, from DNA barcode counts to relative fitness estimates. Released as [BarBay.jl](https://mrazomej.github.io/BarBay.jl/stable/).
 
 :::
 

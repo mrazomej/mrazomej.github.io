@@ -24,7 +24,7 @@ github repository
 
 **2024**
 
-- **Razo-Mejia, M.**. *AutoEncoderToolkit.jl: A Julia package for training
+- **Razo-Mejia, M.**. *[AutoEncoderToolkit.jl](https://mrazomej.github.io/AutoEncoderToolkit.jl/stable/): A Julia package for training
 (Variational) Autoencoders*. **Journal of Open Source Software** (2024).
 <a href="https://www.theoj.org/joss-papers/joss.06794/10.21105.joss.06794.pdf">
 Paper
