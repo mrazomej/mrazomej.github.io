@@ -1,31 +1,15 @@
 ---
-layout: page
 title: Curriculum vitae
-excerpt: My current CV
-execute:
-  freeze: true # never re-render during project render
-engine: knitr 
 resources:
-  - "cv.pdf"
-cv:
-  pdf: "cv.pdf"
+  - cv.pdf
 ---
 
-```{css echo=FALSE}
-.embed-container {
-    position: relative;
-    padding-bottom: 129%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-}
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+Scientist II, Computational Biology at Altos Labs. Updated September 2026.
+
+[Download CV (PDF)](cv.pdf){.btn .btn-outline-primary}
+
+[Research](../projects/index.qmd) · [Software](../software/index.qmd) · [Publications](../publications/index.qmd)
+
+```{=html}
+<iframe class="cv-frame" src="cv.pdf" title="Manuel Razo-Mejia curriculum vitae"></iframe>
 ```

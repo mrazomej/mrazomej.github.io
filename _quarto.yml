@@ -1,86 +1,53 @@
-# website settings
+project:
+  type: website
+  output-dir: docs
+  preview:
+    port: 22222
+    browser: false
 website:
-  # Name
-  title: "Manuel Razo-Mejia, Ph.D."
-  # A brief slogan (optional)
-  description: "Postdoctoral Scholar, Stanford University"
-  # Image for the website
+  title: "Manuel Razo-Mejia"
+  description: "Computational biologist at Altos Labs. Biophysical models, Bayesian inference, and machine learning for biological discovery."
   image: img/manuel_razo.jpg
-  # Icon for the website
-  # favicon: img/darwin_tree.png
-  
-  # start of the navigation bar at the top of the website
+  favicon: img/favicon.png
   navbar:
     pinned: true
-    # logo: /img/logo.png
-
-    # sub-pages
     left:
-      - text: "Projects"
+      - text: Research
         href: projects/index.qmd
-      - text: "Publications"
-        href: publications/index.qmd
-      - text: "Scientific Software"
+      - text: Software
         href: software/index.qmd
-      - text: "CV"
+      - text: Publications
+        href: publications/index.qmd
+      - text: About
+        href: about/index.qmd
+      - text: CV
         href: cv/index.qmd
-      - text: "Media"
-        href: media/index.qmd
-    
-    # social media handles
-    right:
-      - icon: github
-        href: https://github.com/mrazomej
-      - icon: bi-bluesky
-        href: https://bsky.app/profile/mrazo.bsky.social
-      - icon: twitter-x
-        href: https://twitter.com/mrazomej
-      - icon: linkedin
-        href: https://www.linkedin.com/in/manuel-razo-mejia-506b4a148/
-
-  # Set navigation bar
-  search: 
+  search:
     location: navbar
-    type: textbox
-  # Set page-footer 
-  page-footer: 
-    left: |
-      <span class="faux-block">&#169; 2025 Manuel Razo-Mejia CC BY-SA 4.0</span>
-
-# Define project type
-project:
-  # Define project as a website
-  type: website
-  # Define output directory
-  output-dir: docs
-
-  # Set preview options
-  preview: 
-    port: 22222
-    browser: true
-    watch-inputs: true
-    navigate: true
-
+    type: overlay
+  page-footer:
+    left: "© 2026 Manuel Razo-Mejia · CC BY-SA 4.0"
+    right:
+      - text: Email
+        href: mailto:manuel.razo.m@gmail.com
+      - text: GitHub
+        href: https://github.com/mrazomej
+      - text: Scholar
+        href: https://scholar.google.com/citations?user=wktkMB0AAAAJ&hl=en
+      - text: LinkedIn
+        href: https://www.linkedin.com/in/manuel-razo-mejia-506b4a148/
+      - text: Bluesky
+        href: https://bsky.app/profile/mrazo.bsky.social
+      - text: X
+        href: https://twitter.com/mrazomej
 execute:
   freeze: true
-
-# Define output format
 format:
-  # Define HTML output
   html:
-    # Define fontsize: 
-    fontsize: 1.1em
-    # Define two themes: light and dark
-    theme: 
-      light:
-        - cosmo
-        - html/style.scss
-      dark:
-        - darkly
-        - html/style.scss
+    theme:
+      light: [cosmo, html/style.scss]
+      dark: [darkly, html/style.scss]
+    fontsize: 1.05em
     toc: false
-    code-link: false
     anchor-sections: true
-    fig-cap-location: margin
-    reference-location: margin
-    footnotes-hover: true
+    fig-cap-location: bottom

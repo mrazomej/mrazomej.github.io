@@ -1,0 +1,32 @@
+---
+title: About me
+---
+
+I am a computational biologist at **Altos Labs**, where I develop hybrid approaches combining biophysical principles, Bayesian inference, and deep learning. Across my work, I keep returning to the same question: what can we reliably learn from noisy biological measurements?
+
+My research has moved from gene regulation to evolutionary dynamics and single-cell genomics. Experience performing experiments, including fluorescence microscopy, shapes how I think about computational problems: understanding how a measurement was made is part of understanding what it means.
+
+## Background
+
+- **Altos Labs · Scientist II, Computational Biology · August 2025–present.** Hybrid modeling and Bayesian methods for biological data.
+- **SoftMax AI · Visiting Researcher · May–June 2025.** Six-week contribution to multi-agent reinforcement learning, including exploration curricula and reward design.
+- **Stanford University · Postdoctoral Scholar and Schmidt Science Fellow · October 2021–August 2025.** Research with Dmitri Petrov and collaboration with Madhav Mani on fitness inference and evolutionary landscapes.
+- **Superfluid Dx · Statistical Consultant · February–April 2024.** Modeling of clinical bulk RNA-seq data, including sequencing depth and batch effects.
+- **Caltech · PhD, Biochemistry and Molecular Biophysics · 2014–2021.** Research with Rob Phillips on the physics and information processing of gene regulation.
+- **Instituto Politécnico Nacional · BSc, Biotechnological Engineering · 2009–2014.**
+
+[Download my CV](../cv/cv.pdf) · [Read my PhD thesis](https://mrazomej.github.io/phd/)
+
+## Communicating science
+
+I enjoy explaining quantitative biology across disciplines and in both English and Spanish. Selected talks and features offer another view of my work and the path that brought me here.
+
+- [iBiology seminar, English](https://www.youtube.com/watch?v=AtQZo7VRDmc) and [Spanish](https://www.youtube.com/watch?v=mrTNNXdkaOE): presentations of my scientific work for a broader audience.
+- [We are Schmidt Science Fellows](https://www.youtube.com/watch?v=kuY8g-dTDMM): a view of the fellowship community.
+- [Quanta Magazine: The Math That Tells Cells What They Are](https://www.quantamagazine.org/the-math-that-tells-cells-what-they-are-20190313/): a feature on quantitative approaches to cellular behavior.
+
+[All media and talks](../media/index.qmd)
+
+## Contact
+
+[manuel.razo.m@gmail.com](mailto:manuel.razo.m@gmail.com) · [GitHub](https://github.com/mrazomej) · [Google Scholar](https://scholar.google.com/citations?user=wktkMB0AAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/manuel-razo-mejia-506b4a148/)

@@ -46,7 +46,7 @@
     "href": "media/index.html#ibiologys-seminar",
     "title": "Media Features",
     "section": "iBiology’s seminar",
-    "text": "iBiology’s seminar\n\nEnglish version\n\n\n\n\nSpanish version"
+    "text": "iBiology’s seminar\n\nEnglish version\n\n\n\n\n\n\nSpanish version"
   },
   {
     "objectID": "media/index.html#no-borders-science-and-caltech",
@@ -65,50 +65,134 @@
   {
     "objectID": "software/index.html",
     "href": "software/index.html",
-    "title": "Software",
+    "title": "Scientific software",
     "section": "",
-    "text": "SCRIBE (work in progress)\n\n github repository   |  documentation  \nSingle-cell RNA sequencing (scRNA-seq) has revolutionized our ability to study cellular heterogeneity, but analyzing this data comes with unique statistical challenges. SCRIBE (Single-Cell RNA-Seq Inference using Bayesian Estimation) is a Python package that addresses these challenges through a novel approach using variational inference based on Numpyro—a JAX-based probabilistic programming library. What sets SCRIBE apart is its comprehensive suite of probabilistic models specifically designed for scRNA-seq count data, including the innovative Negative Binomial-Dirichlet Multinomial (NBDM) model that simultaneously accounts for both count magnitudes and proportions. The package offers multiple model variants to handle common technical artifacts in scRNA-seq data, such as zero-inflation and variable capture efficiency, while providing GPU acceleration for efficient analysis of large-scale datasets. SCRIBE seamlessly integrates with the AnnData ecosystem and includes visualization tools for posterior analysis, making it a powerful solution for researchers working with single-cell transcriptomics data.\n\n\nAutoEncoderToolkit.jl\n\n open-access PDF   |  github repository   |  documentation  \nWith the advent of generative models, the field of unsupervised learning has exploded in the last decade. One of the most popular generative models is the variational autoencoder (VAE). VAEs assume the existence of a joint probability distribution between a high-dimensional data space and a lower-dimensional latent space. The VAE parametrizes this joint distribution with two neural networks–an encoder and a decoder–using a variational inference approach. This approach allows for the model to approximate the underlying low-dimensional structure that generated the observed data and generate new data samples by sampling from the learned latent space. Several variations of the original VAE have been proposed to extend its capabilities and tackle different problems. Here, we present AutoEncoderToolkit.jl, a Julia package for training VAEs and its extensions. The package is built on top of the Flux.jl deep learning library and provides a simple and flexible interface for training different flavors of VAEs. Furthermore, the package provides a set of utilities for the geometric analysis of the learned latent space.\n\n\nBarBay.jl\n\n open-access PDF   |  paper website   |  documentation  \nWith modern barcoding and sequencing technologies, high-throughput pooled assays have become a popular experimental platform in experimental evolution. In these experiments, a population of uniquely barcoded cellular lineages is grown over multiple growth-dilution cycles. This produces large amounts of barcode count data to infer the relative fitness of each lineage. BarBay.jl is a Julia software package specially designed for the analysis of such data. Based on variational Bayesian inference, it provides a flexible and efficient framework for the estimation of fitness parameters with principled uncertainty quantification."
+    "text": "I build tools that make scientific methods usable beyond a single analysis. My work emphasizes explicit assumptions, reusable interfaces, and documentation that connects the implementation to the underlying model."
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "open-access PDF   |  paper website   |  github repository  \nLiving organisms are constantly sensing intra- and extracellular cues and responding accordingly. The quality and precision of such responses can mean the difference between surviving or not certain challenges; therefore, there is a constant selection pressure for cells to gather enough information from any stimulus to build an adequate response. In this context, the information that cells can obtain has a precise mathematical definition measured —just as in computers— in bits.\nIn a 2020 publication, our goal was to predict how many bits of information a cell can harbor using a simple genetic circuit process. To do so, I wrote down a theoretical model to predict the full distribution of gene expression based on the physics of this molecular process. I calibrated our model with previous information to perform parameter-free predictions. To test the model, I compared the predictions with experimental single-cell gene expression data finding great agreement."
+    "objectID": "software/index.html#barbay",
+    "href": "software/index.html#barbay",
+    "title": "Scientific software",
+    "section": "BarBay.jl",
+    "text": "BarBay.jl\nBayesian estimation of relative fitness from high-throughput pooled competition assays. I developed the method and authored the Julia package.\n\nDNA barcode counts → Bayesian inference → relative fitness with uncertainty\n\n\nVariational inference for analyzing many lineages.\nModels for multiple environments and hierarchical analysis of replicates and genotype-linked barcodes.\nA companion research website with methods, analyses, and figure-generation code.\n\nDocumentation · Source code · Worked research analysis · Research overview"
   },
   {
-    "objectID": "projects/index.html#predicting-how-many-bits-of-information-cells-can-extract-from-the-environment",
-    "href": "projects/index.html#predicting-how-many-bits-of-information-cells-can-extract-from-the-environment",
-    "title": "Projects",
-    "section": "",
-    "text": "open-access PDF   |  paper website   |  github repository  \nLiving organisms are constantly sensing intra- and extracellular cues and responding accordingly. The quality and precision of such responses can mean the difference between surviving or not certain challenges; therefore, there is a constant selection pressure for cells to gather enough information from any stimulus to build an adequate response. In this context, the information that cells can obtain has a precise mathematical definition measured —just as in computers— in bits.\nIn a 2020 publication, our goal was to predict how many bits of information a cell can harbor using a simple genetic circuit process. To do so, I wrote down a theoretical model to predict the full distribution of gene expression based on the physics of this molecular process. I calibrated our model with previous information to perform parameter-free predictions. To test the model, I compared the predictions with experimental single-cell gene expression data finding great agreement."
+    "objectID": "software/index.html#autoencodertoolkit",
+    "href": "software/index.html#autoencodertoolkit",
+    "title": "Scientific software",
+    "section": "AutoEncoderToolkit.jl",
+    "text": "AutoEncoderToolkit.jl\nA Julia package for training variational autoencoders and their extensions. I authored the package, which is published in the Journal of Open Source Software.\n\nHigh-dimensional data → autoencoder training → latent representations and geometric analysis\n\n\nBuilt on Flux.jl, with interfaces for multiple autoencoder variants.\nUtilities for analyzing the geometry of learned latent spaces.\nDocumentation connecting model training with research use.\n\nDocumentation · Source code · Software paper · Related research"
   },
   {
-    "objectID": "projects/index.html#quantitative-modeling-of-gene-regulation-via-allosteric-proteins",
-    "href": "projects/index.html#quantitative-modeling-of-gene-regulation-via-allosteric-proteins",
-    "title": "Projects",
-    "section": "(2018) Quantitative modeling of gene regulation via allosteric proteins",
-    "text": "(2018) Quantitative modeling of gene regulation via allosteric proteins\n\n open-access PDF   |  paper website   |  github repository  \nDespite lacking a nervous system, single bacterial cells can make decisions given signals from their surroundings. How can individual molecules sense and transmit these signals? The answer comes from one of the crowning scientific achievements of the past century: allostery. Simply stated, allostery is the property of certain macromolecules to exist in multiple conformations with different properties. For example, transcription factors —proteins that control gene expression— can be active (able to bind the DNA) or inactive (unable to bind DNA) depending on the concentration of a signaling molecule.\nIn a 2018 paper, our socialist team wrote down a theoretical model that predicts the expression level of a gene regulated by an allosteric transcription factor. We then tested the model experimentally, showing that the model was able to predict how changes to the regulation of the gene translates to changes in the cellular response."
+    "objectID": "software/index.html#scribe",
+    "href": "software/index.html#scribe",
+    "title": "Scientific software",
+    "section": "SCRIBE",
+    "text": "SCRIBE\nA framework I am developing for Bayesian analysis of single-cell RNA sequencing data, with explicit treatment of measurement noise and uncertainty.\n\nSingle-cell RNA counts → probabilistic modeling → biological estimates with uncertainty\n\n\nScalable inference implemented in Python, JAX, and NumPyro.\nGPU acceleration, variational inference, and MCMC.\nModels addressing technical variation, including variable capture efficiency.\nIntegration with the AnnData ecosystem and tools for posterior analysis.\n\n\nPublication in preparation. SCRIBE is under active development. The source code is private; this overview describes its capabilities at a high level.\n\nResearch overview · Contact me"
+  },
+  {
+    "objectID": "software/index.html#contributions-to-multi-agent-learning",
+    "href": "software/index.html#contributions-to-multi-agent-learning",
+    "title": "Scientific software",
+    "section": "Contributions to multi-agent learning",
+    "text": "Contributions to multi-agent learning\nAs a visiting researcher at SoftMax AI in May–June 2025, I contributed to the open-source Metta multi-agent reinforcement learning platform. I designed exploration curricula and reward structures, drawing on biological models to formulate learning objectives and evaluation metrics.\nThis work extended my research into how learning environments and objectives shape agent behavior. More about my background."
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About me",
+    "section": "",
+    "text": "I am a computational biologist at Altos Labs, where I develop hybrid approaches combining biophysical principles, Bayesian inference, and deep learning. Across my work, I keep returning to the same question: what can we reliably learn from noisy biological measurements?\nMy research has moved from gene regulation to evolutionary dynamics and single-cell genomics. Experience performing experiments, including fluorescence microscopy, shapes how I think about computational problems: understanding how a measurement was made is part of understanding what it means."
+  },
+  {
+    "objectID": "about/index.html#background",
+    "href": "about/index.html#background",
+    "title": "About me",
+    "section": "Background",
+    "text": "Background\n\nAltos Labs · Scientist II, Computational Biology · August 2025–present. Hybrid modeling and Bayesian methods for biological data.\nSoftMax AI · Visiting Researcher · May–June 2025. Six-week contribution to multi-agent reinforcement learning, including exploration curricula and reward design.\nStanford University · Postdoctoral Scholar and Schmidt Science Fellow · October 2021–August 2025. Research with Dmitri Petrov and collaboration with Madhav Mani on fitness inference and evolutionary landscapes.\nSuperfluid Dx · Statistical Consultant · February–April 2024. Modeling of clinical bulk RNA-seq data, including sequencing depth and batch effects.\nCaltech · PhD, Biochemistry and Molecular Biophysics · 2014–2021. Research with Rob Phillips on the physics and information processing of gene regulation.\nInstituto Politécnico Nacional · BSc, Biotechnological Engineering · 2009–2014.\n\nDownload my CV · Read my PhD thesis"
+  },
+  {
+    "objectID": "about/index.html#communicating-science",
+    "href": "about/index.html#communicating-science",
+    "title": "About me",
+    "section": "Communicating science",
+    "text": "Communicating science\nI enjoy explaining quantitative biology across disciplines and in both English and Spanish. Selected talks and features offer another view of my work and the path that brought me here.\n\niBiology seminar, English and Spanish: presentations of my scientific work for a broader audience.\nWe are Schmidt Science Fellows: a view of the fellowship community.\nQuanta Magazine: The Math That Tells Cells What They Are: a feature on quantitative approaches to cellular behavior.\n\nAll media and talks"
+  },
+  {
+    "objectID": "about/index.html#contact",
+    "href": "about/index.html#contact",
+    "title": "About me",
+    "section": "Contact",
+    "text": "Contact\nmanuel.razo.m@gmail.com · GitHub · Google Scholar · LinkedIn"
   },
   {
     "objectID": "publications/index.html",
     "href": "publications/index.html",
     "title": "Publications",
     "section": "",
-    "text": "Preprints\n2025\n\nRazo-Mejia, M., Mani, M. & Petrov, D. Learning the Shape of Evolutionary Landscapes: Geometric Deep Learning Reveals Hidden Structure in Phenotype-to-Fitness Maps. bioRxiv (2025).  open-access PDF    paper website   |  github repository  \n\n\n\nPeer-reviewed Publications\n2024\n\nRazo-Mejia, M.. AutoEncoderToolkit.jl: A Julia package for training (Variational) Autoencoders. Journal of Open Source Software (2024).  open-access PDF   |  github repository   |  AutoEncoderToolkit.jl documentation  \nRazo-Mejia, M., Mani, M. & Petrov, D. Bayesian inference of relative fitness on high-throughput pooled competition assays. PLoS Comp. Bio. (2024).  open-access PDF   |  paper website   |  github repository   |  BarBay.jl documentation  \n\n2021\n\nMorrison, M. J., Razo-Mejia, M. & Phillips, R. Reconciling kinetic and thermodynamic models of bacterial transcription. PLoS Comp. Bio. (2021).  open-access PDF   |  github repository  \n\n2020\n\nRazo-Mejia, M. et al. First-principles prediction of the information processing capacity of a simple genetic circuit. Phys. Rev. E 102, 022404 (2020).  open-access PDF   |  paper website   |  github repository  \n\n2019\n\nChure, G., Razo-Mejia, M., et al. Predictive shifts in free energy couple mutations to their phenotypic consequences. PNAS 201907869 (2019) doi:10.1073/pnas.1907869116.  open-access PDF   |  paper website   |  github repository  \nPhillips, R. Belliveau, N., Chure, G., Garcia, H., Razo-Mejia, M., & Scholes, Clarissa. Figure 1 Theory Meets Figure 2 Experiments in the Study of Gene Expression. Annu. Rev. Biophys. 48, 121–163 (2019).  link  \nFoster, P. J., Razo-Mejia, M. & Phillips, R. Measuring the Energetic Costs of Embryonic Development. Dev. Cell 48, 591–592 (2019).  link  \n\n2018\n\nRazo-Mejia, M. et al. Tuning Transcriptional Regulation through Signaling: A Predictive Theory of Allosteric Induction. Cell Syst. 6, 456-469.e10 (2018).  open-access PDF   |  paper website   |  github repository  \n\n2015\n\nZelcbuch, L., Razo-Mejia, M., et al. An In Vivo Metabolic Approach for Deciphering the Product Specificity of Glycerate Kinase Proves that Both E. coli’s Glycerate Kinases Generate 2-Phosphoglycerate. PLoS One 10, e0122957 (2015).  open-access PDF  \n\n2014\n\nRazo-Mejia, M. et al. Comparison of the theoretical and real-world evolutionary potential of a genetic circuit. Phys. Biol. 11, 026005 (2014).  link"
+    "text": "Selected recent work\n2026\n\nRazo-Mejia, M., Mani, M. & Petrov, D. Learning the Shape of Evolutionary Landscapes: Geometric Deep Learning Reveals Hidden Structure in Phenotype-to-Fitness Maps. PRX Life 4, 013030 (2026).  Paper    paper website   |  github repository  \n\n\n\nPeer-reviewed Publications\n2024\n\nRazo-Mejia, M.. AutoEncoderToolkit.jl: A Julia package for training (Variational) Autoencoders. Journal of Open Source Software (2024).  Paper   |  github repository   |  AutoEncoderToolkit.jl documentation  \nRazo-Mejia, M., Mani, M. & Petrov, D. Bayesian inference of relative fitness on high-throughput pooled competition assays. PLoS Comp. Bio. (2024).  Paper   |  paper website   |  github repository   |  BarBay.jl documentation  \n\n2021\n\nMorrison, M. J., Razo-Mejia, M. & Phillips, R. Reconciling kinetic and thermodynamic models of bacterial transcription. PLoS Comp. Bio. (2021).  Paper   |  github repository  \n\n2020\n\nRazo-Mejia, M. et al. First-principles prediction of the information processing capacity of a simple genetic circuit. Phys. Rev. E 102, 022404 (2020).  Paper   |  paper website   |  github repository  \n\n2019\n\nChure, G., Razo-Mejia, M., et al. Predictive shifts in free energy couple mutations to their phenotypic consequences. PNAS 201907869 (2019) doi:10.1073/pnas.1907869116.  Paper   |  paper website   |  github repository  \nPhillips, R. Belliveau, N., Chure, G., Garcia, H., Razo-Mejia, M., & Scholes, Clarissa. Figure 1 Theory Meets Figure 2 Experiments in the Study of Gene Expression. Annu. Rev. Biophys. 48, 121–163 (2019).  link  \nFoster, P. J., Razo-Mejia, M. & Phillips, R. Measuring the Energetic Costs of Embryonic Development. Dev. Cell 48, 591–592 (2019).  link  \n\n2018\n\nRazo-Mejia, M. et al. Tuning Transcriptional Regulation through Signaling: A Predictive Theory of Allosteric Induction. Cell Syst. 6, 456-469.e10 (2018).  Paper   |  paper website   |  github repository  \n\n2015\n\nZelcbuch, L., Razo-Mejia, M., et al. An In Vivo Metabolic Approach for Deciphering the Product Specificity of Glycerate Kinase Proves that Both E. coli’s Glycerate Kinases Generate 2-Phosphoglycerate. PLoS One 10, e0122957 (2015).  Paper  \n\n2014\n\nRazo-Mejia, M. et al. Comparison of the theoretical and real-world evolutionary potential of a genetic circuit. Phys. Biol. 11, 026005 (2014).  link"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research asks how to extract reliable biological understanding from imperfect measurements. I develop models, test their assumptions against data, and build reusable software around the resulting analyses."
+  },
+  {
+    "objectID": "projects/index.html#fitness",
+    "href": "projects/index.html#fitness",
+    "title": "Research",
+    "section": "Measuring fitness with uncertainty",
+    "text": "Measuring fitness with uncertainty\n\nBayesian inference · DNA barcode assays · PLoS Computational Biology, 2024\n\nHow confidently can we distinguish the fitness of cellular lineages in a pooled competition experiment? Barcode counts offer a powerful readout, but biological and measurement noise complicate their interpretation.\nI developed a Bayesian framework for relative fitness inference and implemented it in BarBay.jl. The framework propagates uncertainty and uses variational inference to make analysis practical across many barcodes. Extensions handle multiple environments, experimental replicates, and barcodes linked to the same genotype.\n\n\n\nFrom pooled growth and DNA barcode sequencing to a probabilistic model of lineage fitness. The model carries uncertainty through the analysis rather than treating observed counts as exact.\n\n\nValidation and use. Simulated assays provide known fitness values against which to assess inference. Posterior predictive checks test whether the fitted model can reproduce observed trajectories. The resulting estimates and uncertainty intervals support comparisons between lineages, with the analysis and figure-generation code available for inspection.\nPaper · Reproducible analysis · BarBay documentation"
+  },
+  {
+    "objectID": "projects/index.html#landscapes",
+    "href": "projects/index.html#landscapes",
+    "title": "Research",
+    "section": "Learning the geometry of evolutionary landscapes",
+    "text": "Learning the geometry of evolutionary landscapes\n\nRepresentation learning · Evolutionary dynamics · PRX Life, 2026\n\nCan fitness measurements across environments reveal the biological structure underlying adaptation? I used geometry-aware variational autoencoders to study the relationship between high-dimensional fitness profiles and lower-dimensional phenotype spaces.\nThe work connects a model of evolutionary dynamics with representation learning, then applies the approach to antibiotic-resistance measurements in E. coli. Learning the geometry alongside the embedding gives a way to interpret distances in the latent representation.\n\n\n\nThe geometric autoencoder workflow: an encoder maps fitness profiles into a latent space, a metric network learns its geometry, and a decoder reconstructs the measurements.\n\n\nValidation and result. I evaluated the approach on simulated dynamics with known phenotypic structure and on experimental antibiotic-response data, comparing nonlinear representations with linear dimensionality reduction. The study showed improved prediction of held-out antibiotic responses relative to linear approaches in the dataset studied.\nPublished paper · Paper and analysis · Code"
+  },
+  {
+    "objectID": "projects/index.html#scribe",
+    "href": "projects/index.html#scribe",
+    "title": "Research",
+    "section": "Reliable inference from single-cell RNA sequencing",
+    "text": "Reliable inference from single-cell RNA sequencing\n\nSCRIBE · Bayesian modeling · Publication in preparation\n\nSingle-cell measurements combine biological variation with technical noise. How that noise is modeled affects what we can conclude about differences between cells.\nI am developing SCRIBE, a framework for single-cell RNA-seq analysis that explicitly accounts for measurement noise and uncertainty. Its capabilities include GPU-accelerated Bayesian inference, variational inference and MCMC, and models that address variability in measurement and capture efficiency. It is implemented in Python using JAX and NumPyro.\nThe aim is to make rigorous inference practical for high-dimensional biological data while keeping model assumptions interpretable.\n\nSCRIBE is under active development, and a publication is being prepared. The source code is currently private.\n\nSoftware overview · Contact me"
+  },
+  {
+    "objectID": "projects/index.html#gene-regulation",
+    "href": "projects/index.html#gene-regulation",
+    "title": "Research",
+    "section": "Predicting and measuring gene regulation",
+    "text": "Predicting and measuring gene regulation\n\nStatistical physics · Information theory · Experimental biophysics\n\nDuring my PhD at Caltech, I studied how genetic circuits sense environmental signals and produce cellular responses. I combined biophysical modeling with fluorescence microscopy experiments to test predictions about gene regulation.\nInformation processing in a genetic circuit (2020). I developed a model of gene-expression distributions and used independently constrained parameters to predict the information a circuit can transmit. Comparison with single-cell measurements connected molecular mechanisms to the variability of cellular responses.\n\n\n\nBiophysical predictions and experimental measurements of information processing in a genetic circuit.\n\n\nPaper · Analysis and data · Code\nAllosteric regulation (2018). With collaborators, I developed and experimentally tested a predictive model connecting the properties of allosteric transcription factors to gene expression. This work grounds my computational approach in how biological measurements are actually made.\nPaper · Project website · Code"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About me",
+    "title": "What can we reliably learn from noisy biological measurements?",
     "section": "",
-    "text": "BlueSky\n  \n  \n    \n     Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Google Scholar\n  \n\n\n\n\nAbout me\nI am a computational scientist specializing in machine learning and statistical inference for biological data analysis, currently working in the lab of Dmitri Petrov at Stanford University and collaborating with Madhav Mani at Northwestern University. My research focuses on developing novel computational approaches that combine dynamical systems theory, biophysical modeling, and deep learning techniques to extract actionable insights from complex multi-scale biological datasets.\nI am particularly passionate about Evolution and the Physics of Living Systems, believing that understanding evolution requires physics-like approaches, especially techniques borrowed from statistical physics and complex systems. My work aims to create robust, scalable workflows that bridge fundamental cellular principles with rigorous data-driven decision making—all implemented with strong software engineering practices to ensure reproducibility and deployment readiness.\nI completed my Ph.D. with Rob Phillips at Caltech, where I explored how cells gather information from the environment, process it, and build responses to maintain homeostasis. You can learn more about this work in my thesis."
+    "text": "Computational biology · Biophysics · Machine learning\n\n\n\n\nI’m Manuel Razo-Mejia, a Scientist II in Computational Biology at Altos Labs.\n\nI build biophysical models, Bayesian methods, and scientific software to understand biological data. My research spans single-cell genomics, evolutionary dynamics, and gene regulation, with experiments shaping how I model measurements and test predictions.\n\nExplore research Download CV Email me\n\n\n\n\n\n\n\nManuel Razo-Mejia"
+  },
+  {
+    "objectID": "index.html#selected-research",
+    "href": "index.html#selected-research",
+    "title": "What can we reliably learn from noisy biological measurements?",
+    "section": "Selected research",
+    "text": "Selected research\n\n\n\n\n\nSchematic of DNA barcode competition assays and Bayesian inference\n\n\n\nExperimental evolution · PLoS Computational Biology, 2024\n\n\nMeasuring fitness with uncertainty\nBayesian inference for pooled competition assays, from DNA barcode counts to relative fitness estimates. Released as BarBay.jl.\n\n\n\n\n\n\nGeometric variational autoencoder maps high-dimensional fitness profiles into a latent space\n\n\n\nGeometric deep learning · PRX Life, 2026\n\n\nLearning evolutionary landscapes\nUsing geometry-aware autoencoders to uncover structure in phenotype-to-fitness maps and study antibiotic resistance.\n\n\n\n\nSingle-cell genomics · Publication in preparation\n\n\nReliable single-cell inference\nSCRIBE models measurement noise and uncertainty in single-cell RNA sequencing with scalable Bayesian inference.\nExplore capabilities"
+  },
+  {
+    "objectID": "index.html#from-measurements-to-models",
+    "href": "index.html#from-measurements-to-models",
+    "title": "What can we reliably learn from noisy biological measurements?",
+    "section": "From measurements to models",
+    "text": "From measurements to models\nI work across mechanistic modeling, statistical inference, and deep learning, choosing the method around the biological question. I also build the software that lets other researchers inspect assumptions and reproduce an analysis.\nPreviously, I was a Schmidt Science Fellow and postdoctoral scholar at Stanford, following a PhD in Biochemistry and Molecular Biophysics at Caltech. More about my background."
   },
   {
     "objectID": "cv/index.html",
     "href": "cv/index.html",
     "title": "Curriculum vitae",
     "section": "",
-    "text": "Download CV"
+    "text": "Scientist II, Computational Biology at Altos Labs. Updated September 2026.\nDownload CV (PDF)\nResearch · Software · Publications"
   }
 ]

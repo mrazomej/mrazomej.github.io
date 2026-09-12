@@ -1,50 +1,115 @@
 ---
-about:
-  template: jolla
-  id: about-block
-  image: "img/manuel_razo.jpg"
-  links:
-    - icon: bi-bluesky
-      text: BlueSky
-      href: https://bsky.app/profile/mrazo.bsky.social
-    - icon: twitter-x
-      text: Twitter
-      href: https://twitter.com/mrazomej
-    - icon: github
-      text: Github
-      href: https://github.com/mrazomej
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/manuel-razo-mejia-506b4a148/
-    - icon: globe2
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=wktkMB0AAAAJ&hl=en
+title: ""
+page-layout: full
 ---
 
-::: {#about-block}
+
+::: {.hero}
+
+
+::: {.hero-copy}
+
+
+::: {.eyebrow}
+
+Computational biology · Biophysics · Machine learning
+
 :::
 
-# About me
 
-I am a computational scientist specializing in machine learning and statistical
-inference for biological data analysis, currently working in the lab of [Dmitri
-Petrov](https://petrov.stanford.edu/) at [Stanford
-University](http://stanford.edu) and collaborating with [Madhav
-Mani](https://www.madhavmani.com) at Northwestern University. My research
-focuses on developing novel computational approaches that combine dynamical
-systems theory, biophysical modeling, and deep learning techniques to extract
-actionable insights from complex multi-scale biological datasets.
+# What can we reliably learn from noisy biological measurements?
 
-I am particularly passionate about Evolution and the Physics of Living Systems,
-believing that understanding evolution requires physics-like approaches,
-especially techniques borrowed from statistical physics and complex systems. My
-work aims to create robust, scalable workflows that bridge fundamental cellular
-principles with rigorous data-driven decision making—all implemented with strong
-software engineering practices to ensure reproducibility and deployment
-readiness.
 
-I completed my [Ph.D.](https://mrazomej.github.io/phd) with [Rob
-Phillips](http://rpgroup.caltech.edu/) at [Caltech](http://caltech.edu), where I
-explored how cells gather information from the environment, process it, and
-build responses to maintain homeostasis. You can learn more about this work in
-[my thesis](https://mrazomej.github.io/phd/).
+::: {.role}
+
+I'm Manuel Razo-Mejia, a Scientist II in Computational Biology at Altos Labs.
+
+:::
+
+
+I build biophysical models, Bayesian methods, and scientific software to understand biological data. My research spans single-cell genomics, evolutionary dynamics, and gene regulation, with experiments shaping how I model measurements and test predictions.
+
+
+::: {.actions}
+
+[Explore research](projects/index.qmd) [Download CV](cv/cv.pdf) [Email me](mailto:manuel.razo.m@gmail.com)
+
+:::
+
+
+:::
+
+
+::: {.hero-portrait}
+
+![Manuel Razo-Mejia](img/manuel_razo.jpg)
+
+:::
+
+
+:::
+
+
+## Selected research
+
+
+::: {.research-grid}
+
+
+::: {.research-card}
+
+![Schematic of DNA barcode competition assays and Bayesian inference](img/fitness-assays.png)
+
+::: {.meta}
+
+Experimental evolution · PLoS Computational Biology, 2024
+
+:::
+
+### [Measuring fitness with uncertainty](projects/index.qmd#fitness)
+Bayesian inference for pooled competition assays, from DNA barcode counts to relative fitness estimates. Released as BarBay.jl.
+
+:::
+
+
+::: {.research-card}
+
+![Geometric variational autoencoder maps high-dimensional fitness profiles into a latent space](img/landscape-model.png)
+
+::: {.meta}
+
+Geometric deep learning · PRX Life, 2026
+
+:::
+
+### [Learning evolutionary landscapes](projects/index.qmd#landscapes)
+Using geometry-aware autoencoders to uncover structure in phenotype-to-fitness maps and study antibiotic resistance.
+
+:::
+
+
+::: {.research-card}
+
+
+::: {.meta}
+
+Single-cell genomics · Publication in preparation
+
+:::
+
+### [Reliable single-cell inference](projects/index.qmd#scribe)
+SCRIBE models measurement noise and uncertainty in single-cell RNA sequencing with scalable Bayesian inference.
+
+[Explore capabilities](software/index.qmd#scribe)
+
+:::
+
+
+:::
+
+
+## From measurements to models
+
+I work across mechanistic modeling, statistical inference, and deep learning, choosing the method around the biological question. I also build the software that lets other researchers inspect assumptions and reproduce an analysis.
+
+Previously, I was a Schmidt Science Fellow and postdoctoral scholar at Stanford, following a PhD in Biochemistry and Molecular Biophysics at Caltech. [More about my background](about/index.qmd).

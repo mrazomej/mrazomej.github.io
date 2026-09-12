@@ -1,93 +1,65 @@
 ---
-title: Software
+title: Scientific software
+description: "Research tools for Bayesian inference and representation learning in biology."
 ---
 
-# `SCRIBE` (work in progress)
+I build tools that make scientific methods usable beyond a single analysis. My work emphasizes explicit assumptions, reusable interfaces, and documentation that connects the implementation to the underlying model.
 
-<!-- <img src="../img/scribe.png" style="height: 25%; width: 25%; object-fit: contain" onclick="window.open('https://mrazomej.github.io/scribe/', 'blank');"/> -->
+::: {.software-entry}
+## BarBay.jl {#barbay}
 
-<a href="https://github.com/mrazomej/scribe">
-github repository
-<i class="bi bi-github" aria-hidden="true"></i>
-</a> | 
-<a href="https://mrazomej.github.io/scribe/">
-documentation
-<i class="bi bi-laptop" aria-hidden="true"></i>
-</a>
+Bayesian estimation of relative fitness from high-throughput pooled competition assays. I developed the method and authored the Julia package.
 
-Single-cell RNA sequencing (scRNA-seq) has revolutionized our ability to study
-cellular heterogeneity, but analyzing this data comes with unique statistical
-challenges. `SCRIBE` (Single-Cell RNA-Seq Inference using Bayesian Estimation)
-is a Python package that addresses these challenges through a novel approach
-using variational inference based on Numpyro—a JAX-based probabilistic
-programming library. What sets `SCRIBE` apart is its comprehensive suite of
-probabilistic models specifically designed for scRNA-seq count data, including
-the innovative Negative Binomial-Dirichlet Multinomial (NBDM) model that
-simultaneously accounts for both count magnitudes and proportions. The package
-offers multiple model variants to handle common technical artifacts in scRNA-seq
-data, such as zero-inflation and variable capture efficiency, while providing
-GPU acceleration for efficient analysis of large-scale datasets. `SCRIBE`
-seamlessly integrates with the AnnData ecosystem and includes visualization
-tools for posterior analysis, making it a powerful solution for researchers
-working with single-cell transcriptomics data.
+::: {.workflow}
+DNA barcode counts → Bayesian inference → relative fitness with uncertainty
+:::
 
-# `AutoEncoderToolkit.jl`
+- Variational inference for analyzing many lineages.
+- Models for multiple environments and hierarchical analysis of replicates and genotype-linked barcodes.
+- A companion research website with methods, analyses, and figure-generation code.
 
-<img src="../img/autoencodertoolkit.png" style="height: 25%; width: 25%; object-fit: contain" onclick="window.open('https://mrazomej.github.io/AutoEncoderToolkit.jl/stable/', 'blank');"/>
+[Documentation](https://mrazomej.github.io/BarBay.jl/stable/) · [Source code](https://github.com/mrazomej/BarBay.jl) · [Worked research analysis](https://mrazomej.github.io/bayesian_fitness/paper.html) · [Research overview](../projects/index.qmd#fitness)
+:::
 
-<a href="https://www.theoj.org/joss-papers/joss.06794/10.21105.joss.06794.pdf">
-open-access PDF
-<i class="bi bi-file-pdf" aria-hidden="true"></i>
-</a> | 
-<a href="https://github.com/mrazomej/AutoEncoderToolkit.jl">
-github repository
-<i class="bi bi-github" aria-hidden="true"></i>
-</a> | 
-<a href="https://mrazomej.github.io/AutoEncoderToolkit.jl/stable/">
-documentation
-<i class="bi bi-laptop" aria-hidden="true"></i>
-</a>
+::: {.software-entry}
+## AutoEncoderToolkit.jl {#autoencodertoolkit}
 
-With the advent of generative models, the field of unsupervised learning has
-exploded in the last decade. One of the most popular generative models is the
-variational autoencoder (VAE). VAEs assume the existence of a joint probability
-distribution between a high-dimensional data space and a lower-dimensional
-latent space. The VAE parametrizes this joint distribution with two neural
-networks–an encoder and a decoder–using a variational inference approach. This
-approach allows for the model to approximate the underlying low-dimensional
-structure that generated the observed data and generate new data samples by
-sampling from the learned latent space. Several variations of the original VAE
-have been proposed to extend its capabilities and tackle different problems.
-Here, we present `AutoEncoderToolkit.jl`, a `Julia` package for training VAEs and
-its extensions. The package is built on top of the
-[Flux.jl](https://github.com/FluxML/Flux.jl) deep learning library and provides
-a simple and flexible interface for training different flavors of VAEs.
-Furthermore, the package provides a set of utilities for the geometric analysis
-of the learned latent space.
+A Julia package for training variational autoencoders and their extensions. I authored the package, which is published in the *Journal of Open Source Software*.
 
-# `BarBay.jl`
+::: {.workflow}
+High-dimensional data → autoencoder training → latent representations and geometric analysis
+:::
 
-<img src="../img/barbay.png" style="height: 25%; width: 25%; object-fit: contain" onclick="window.open('https://mrazomej.github.io/BarBay.jl/stable/', 'blank');"/>
+- Built on Flux.jl, with interfaces for multiple autoencoder variants.
+- Utilities for analyzing the geometry of learned latent spaces.
+- Documentation connecting model training with research use.
 
-<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011937">
-open-access PDF
-<i class="bi bi-file-pdf" aria-hidden="true"></i>
-</a> | 
-<a href="https://mrazomej.github.io/bayesian_fitness/paper.html">
-paper website
-<i class="bi bi-globe" aria-hidden="true"></i>
-</a> | 
-<a href="https://mrazomej.github.io/BarBay.jl/stable/">
-documentation
-<i class="bi bi-laptop" aria-hidden="true"></i>
-</a>
+[Documentation](https://mrazomej.github.io/AutoEncoderToolkit.jl/stable/) · [Source code](https://github.com/mrazomej/AutoEncoderToolkit.jl) · [Software paper](https://doi.org/10.21105/joss.06794) · [Related research](../projects/index.qmd#landscapes)
+:::
 
-With modern barcoding and sequencing technologies, high-throughput pooled assays
-have become a popular experimental platform in experimental evolution. In these
-experiments, a population of uniquely barcoded cellular lineages is grown over
-multiple growth-dilution cycles. This produces large amounts of barcode count
-data to infer the relative fitness of each lineage. `BarBay.jl` is a `Julia`
-software package specially designed for the analysis of such data. Based on
-variational Bayesian inference, it provides a flexible and efficient framework
-for the estimation of fitness parameters with principled uncertainty
-quantification.
+::: {.software-entry}
+## SCRIBE {#scribe}
+
+A framework I am developing for Bayesian analysis of single-cell RNA sequencing data, with explicit treatment of measurement noise and uncertainty.
+
+::: {.workflow}
+Single-cell RNA counts → probabilistic modeling → biological estimates with uncertainty
+:::
+
+- Scalable inference implemented in Python, JAX, and NumPyro.
+- GPU acceleration, variational inference, and MCMC.
+- Models addressing technical variation, including variable capture efficiency.
+- Integration with the AnnData ecosystem and tools for posterior analysis.
+
+::: {.note}
+**Publication in preparation.** SCRIBE is under active development. The source code is private; this overview describes its capabilities at a high level.
+:::
+
+[Research overview](../projects/index.qmd#scribe) · [Contact me](mailto:manuel.razo.m@gmail.com)
+:::
+
+## Contributions to multi-agent learning
+
+As a visiting researcher at **SoftMax AI** in May–June 2025, I contributed to the open-source Metta multi-agent reinforcement learning platform. I designed exploration curricula and reward structures, drawing on biological models to formulate learning objectives and evaluation metrics.
+
+This work extended my research into how learning environments and objectives shape agent behavior. [More about my background](../about/index.qmd).
