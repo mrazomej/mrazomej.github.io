@@ -32,7 +32,7 @@ I build biophysical models, Bayesian methods, and scientific software to underst
 
 ::: {.actions}
 
-[Explore research](projects/index.qmd) [Download CV](cv/cv.pdf) [Email me](mailto:manuel.razo.m@gmail.com)
+[Explore research](projects/index.qmd) [Download CV](cv/manuel-razo-mejia-cv-2026-09.pdf) [Email me](mailto:manuel.razo.m@gmail.com)
 
 :::
 

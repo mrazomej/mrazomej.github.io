@@ -1,15 +1,15 @@
 ---
 title: Curriculum vitae
 resources:
-  - cv.pdf
+  - manuel-razo-mejia-cv-2026-09.pdf
 ---
 
 Scientist II, Computational Biology at Altos Labs. Updated September 2026.
 
-[Download CV (PDF)](cv.pdf){.btn .btn-outline-primary}
+[Download CV (PDF)](manuel-razo-mejia-cv-2026-09.pdf){.btn .btn-outline-primary}
 
 [Research](../projects/index.qmd) · [Software](../software/index.qmd) · [Publications](../publications/index.qmd)
 
 ```{=html}
-<iframe class="cv-frame" src="cv.pdf" title="Manuel Razo-Mejia curriculum vitae"></iframe>
+<iframe class="cv-frame" src="manuel-razo-mejia-cv-2026-09.pdf" title="Manuel Razo-Mejia curriculum vitae"></iframe>
 ```
