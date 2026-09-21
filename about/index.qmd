@@ -2,13 +2,13 @@
 title: About me
 ---
 
-I am a computational biologist at **Altos Labs**, where I develop hybrid approaches combining biophysical principles, Bayesian inference, and deep learning. Across my work, I keep returning to the same question: what can we reliably learn from noisy biological measurements?
+I am a computational biologist at **Altos Labs**, where I develop probabilistic machine learning methods and biophysical models. I combine mechanistic understanding with generative modeling and Bayesian inference to learn from biological data. Across my work, I keep returning to the same question: what can we reliably learn from noisy biological measurements?
 
 My research has moved from gene regulation to evolutionary dynamics and single-cell genomics. Experience performing experiments, including fluorescence microscopy, shapes how I think about computational problems: understanding how a measurement was made is part of understanding what it means.
 
 ## Background
 
-- **Altos Labs · Scientist II, Computational Biology · August 2025–present.** Hybrid modeling and Bayesian methods for biological data.
+- **Altos Labs · Scientist II, Computational Biology · August 2025–present.** Probabilistic machine learning and biophysical modeling for biological data.
 - **SoftMax AI · Visiting Researcher · May–June 2025.** Six-week contribution to multi-agent reinforcement learning, including exploration curricula and reward design.
 - **Stanford University · Postdoctoral Scholar and Schmidt Science Fellow · October 2021–August 2025.** Research with Dmitri Petrov and collaboration with Madhav Mani on fitness inference and evolutionary landscapes.
 - **Superfluid Dx · Statistical Consultant · February–April 2024.** Modeling of clinical bulk RNA-seq data, including sequencing depth and batch effects.

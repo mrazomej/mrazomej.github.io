@@ -1,6 +1,6 @@
 ---
 title: Scientific software
-description: "Research tools for Bayesian inference and representation learning in biology."
+description: "Research tools for probabilistic machine learning and representation learning in biology."
 ---
 
 I build tools that make scientific methods usable beyond a single analysis. My work emphasizes explicit assumptions, reusable interfaces, and documentation that connects the implementation to the underlying model.
@@ -40,7 +40,7 @@ High-dimensional data → autoencoder training → latent representations and ge
 ::: {.software-entry}
 ## SCRIBE {#scribe}
 
-A framework I am developing for Bayesian analysis of single-cell RNA sequencing data, with explicit treatment of measurement noise and uncertainty.
+A framework I am developing for probabilistic modeling of single-cell RNA sequencing data, using Bayesian inference to account explicitly for measurement noise and uncertainty.
 
 ::: {.workflow}
 Single-cell RNA counts → probabilistic modeling → biological estimates with uncertainty

@@ -6,7 +6,7 @@ project:
     browser: false
 website:
   title: "Manuel Razo-Mejia"
-  description: "Computational biologist at Altos Labs. Biophysical models, Bayesian inference, and machine learning for biological discovery."
+  description: "Computational biologist at Altos Labs. Probabilistic machine learning and biophysical models for biological discovery."
   image: img/manuel_razo.jpg
   favicon: img/favicon.png
   navbar:

@@ -1,6 +1,6 @@
 ---
 title: Research
-description: "Selected work in Bayesian inference, geometric deep learning, single-cell genomics, and experimental biophysics."
+description: "Selected work in probabilistic machine learning, single-cell genomics, evolutionary dynamics, and experimental biophysics."
 ---
 
 My research asks how to extract reliable biological understanding from imperfect measurements. I develop models, test their assumptions against data, and build reusable software around the resulting analyses.
@@ -45,7 +45,7 @@ The work connects a model of evolutionary dynamics with representation learning,
 ## Reliable inference from single-cell RNA sequencing {#scribe}
 
 ::: {.meta}
-SCRIBE · Bayesian modeling · Publication in preparation
+SCRIBE · Probabilistic modeling · Publication in preparation
 :::
 
 Single-cell measurements combine biological variation with technical noise. How that noise is modeled affects what we can conclude about differences between cells.

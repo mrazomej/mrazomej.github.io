@@ -88,7 +88,7 @@
     "href": "software/index.html#scribe",
     "title": "Scientific software",
     "section": "SCRIBE",
-    "text": "SCRIBE\nA framework I am developing for Bayesian analysis of single-cell RNA sequencing data, with explicit treatment of measurement noise and uncertainty.\n\nSingle-cell RNA counts → probabilistic modeling → biological estimates with uncertainty\n\n\nScalable inference implemented in Python, JAX, and NumPyro.\nGPU acceleration, variational inference, and MCMC.\nModels addressing technical variation, including variable capture efficiency.\nIntegration with the AnnData ecosystem and tools for posterior analysis.\n\n\nPublication in preparation. SCRIBE is under active development. The source code is private; this overview describes its capabilities at a high level.\n\nResearch overview · Contact me"
+    "text": "SCRIBE\nA framework I am developing for probabilistic modeling of single-cell RNA sequencing data, using Bayesian inference to account explicitly for measurement noise and uncertainty.\n\nSingle-cell RNA counts → probabilistic modeling → biological estimates with uncertainty\n\n\nScalable inference implemented in Python, JAX, and NumPyro.\nGPU acceleration, variational inference, and MCMC.\nModels addressing technical variation, including variable capture efficiency.\nIntegration with the AnnData ecosystem and tools for posterior analysis.\n\n\nPublication in preparation. SCRIBE is under active development. The source code is private; this overview describes its capabilities at a high level.\n\nResearch overview · Contact me"
   },
   {
     "objectID": "software/index.html#contributions-to-multi-agent-learning",
@@ -102,14 +102,14 @@
     "href": "about/index.html",
     "title": "About me",
     "section": "",
-    "text": "I am a computational biologist at Altos Labs, where I develop hybrid approaches combining biophysical principles, Bayesian inference, and deep learning. Across my work, I keep returning to the same question: what can we reliably learn from noisy biological measurements?\nMy research has moved from gene regulation to evolutionary dynamics and single-cell genomics. Experience performing experiments, including fluorescence microscopy, shapes how I think about computational problems: understanding how a measurement was made is part of understanding what it means."
+    "text": "I am a computational biologist at Altos Labs, where I develop probabilistic machine learning methods and biophysical models. I combine mechanistic understanding with generative modeling and Bayesian inference to learn from biological data. Across my work, I keep returning to the same question: what can we reliably learn from noisy biological measurements?\nMy research has moved from gene regulation to evolutionary dynamics and single-cell genomics. Experience performing experiments, including fluorescence microscopy, shapes how I think about computational problems: understanding how a measurement was made is part of understanding what it means."
   },
   {
     "objectID": "about/index.html#background",
     "href": "about/index.html#background",
     "title": "About me",
     "section": "Background",
-    "text": "Background\n\nAltos Labs · Scientist II, Computational Biology · August 2025–present. Hybrid modeling and Bayesian methods for biological data.\nSoftMax AI · Visiting Researcher · May–June 2025. Six-week contribution to multi-agent reinforcement learning, including exploration curricula and reward design.\nStanford University · Postdoctoral Scholar and Schmidt Science Fellow · October 2021–August 2025. Research with Dmitri Petrov and collaboration with Madhav Mani on fitness inference and evolutionary landscapes.\nSuperfluid Dx · Statistical Consultant · February–April 2024. Modeling of clinical bulk RNA-seq data, including sequencing depth and batch effects.\nCaltech · PhD, Biochemistry and Molecular Biophysics · 2014–2021. Research with Rob Phillips on the physics and information processing of gene regulation.\nInstituto Politécnico Nacional · BSc, Biotechnological Engineering · 2009–2014.\n\nDownload my CV · Read my PhD thesis"
+    "text": "Background\n\nAltos Labs · Scientist II, Computational Biology · August 2025–present. Probabilistic machine learning and biophysical modeling for biological data.\nSoftMax AI · Visiting Researcher · May–June 2025. Six-week contribution to multi-agent reinforcement learning, including exploration curricula and reward design.\nStanford University · Postdoctoral Scholar and Schmidt Science Fellow · October 2021–August 2025. Research with Dmitri Petrov and collaboration with Madhav Mani on fitness inference and evolutionary landscapes.\nSuperfluid Dx · Statistical Consultant · February–April 2024. Modeling of clinical bulk RNA-seq data, including sequencing depth and batch effects.\nCaltech · PhD, Biochemistry and Molecular Biophysics · 2014–2021. Research with Rob Phillips on the physics and information processing of gene regulation.\nInstituto Politécnico Nacional · BSc, Biotechnological Engineering · 2009–2014.\n\nDownload my CV · Read my PhD thesis"
   },
   {
     "objectID": "about/index.html#communicating-science",
@@ -158,7 +158,7 @@
     "href": "projects/index.html#scribe",
     "title": "Research",
     "section": "Reliable inference from single-cell RNA sequencing",
-    "text": "Reliable inference from single-cell RNA sequencing\n\nSCRIBE · Bayesian modeling · Publication in preparation\n\nSingle-cell measurements combine biological variation with technical noise. How that noise is modeled affects what we can conclude about differences between cells.\nI am developing SCRIBE, a framework for single-cell RNA-seq analysis that explicitly accounts for measurement noise and uncertainty. Its capabilities include GPU-accelerated Bayesian inference, variational inference and MCMC, and models that address variability in measurement and capture efficiency. It is implemented in Python using JAX and NumPyro.\nThe aim is to make rigorous inference practical for high-dimensional biological data while keeping model assumptions interpretable.\n\nSCRIBE is under active development, and a publication is being prepared. The source code is currently private.\n\nSoftware overview · Contact me"
+    "text": "Reliable inference from single-cell RNA sequencing\n\nSCRIBE · Probabilistic modeling · Publication in preparation\n\nSingle-cell measurements combine biological variation with technical noise. How that noise is modeled affects what we can conclude about differences between cells.\nI am developing SCRIBE, a framework for single-cell RNA-seq analysis that explicitly accounts for measurement noise and uncertainty. Its capabilities include GPU-accelerated Bayesian inference, variational inference and MCMC, and models that address variability in measurement and capture efficiency. It is implemented in Python using JAX and NumPyro.\nThe aim is to make rigorous inference practical for high-dimensional biological data while keeping model assumptions interpretable.\n\nSCRIBE is under active development, and a publication is being prepared. The source code is currently private.\n\nSoftware overview · Contact me"
   },
   {
     "objectID": "projects/index.html#gene-regulation",
@@ -172,21 +172,21 @@
     "href": "index.html",
     "title": "What can we reliably learn from noisy biological measurements?",
     "section": "",
-    "text": "Computational biology · Biophysics · Machine learning\n\n\n\n\nI’m Manuel Razo-Mejia, a Scientist II in Computational Biology at Altos Labs.\n\nI build biophysical models, Bayesian methods, and scientific software to understand biological data. My research spans single-cell genomics, evolutionary dynamics, and gene regulation, with experiments shaping how I model measurements and test predictions.\n\nExplore research Download CV Email me\n\n\n\n\n\n\n\nManuel Razo-Mejia"
+    "text": "Computational biology · Biophysics · Probabilistic machine learning\n\n\n\n\nI’m Manuel Razo-Mejia, a Scientist II in Computational Biology at Altos Labs.\n\nI’m a computational biologist developing probabilistic machine learning methods and biophysical models to understand biological systems. My research spans single-cell genomics, evolutionary dynamics, and gene regulation. I combine mechanistic understanding with generative modeling and Bayesian inference to learn from noisy biological measurements.\n\nExplore research Download CV Email me\n\n\n\n\n\n\n\nManuel Razo-Mejia"
   },
   {
     "objectID": "index.html#selected-research",
     "href": "index.html#selected-research",
     "title": "What can we reliably learn from noisy biological measurements?",
     "section": "Selected research",
-    "text": "Selected research\n\n\n\n\n\nSchematic of DNA barcode competition assays and Bayesian inference\n\n\n\nExperimental evolution · PLoS Computational Biology, 2024\n\n\nMeasuring fitness with uncertainty\nBayesian inference for pooled competition assays, from DNA barcode counts to relative fitness estimates. Released as BarBay.jl.\n\n\n\n\n\n\nGeometric variational autoencoder maps high-dimensional fitness profiles into a latent space\n\n\n\nGeometric deep learning · PRX Life, 2026\n\n\nLearning evolutionary landscapes\nUsing geometry-aware autoencoders to uncover structure in phenotype-to-fitness maps and study antibiotic resistance.\n\n\n\n\nSingle-cell genomics · Publication in preparation\n\n\nReliable single-cell inference\nSCRIBE models measurement noise and uncertainty in single-cell RNA sequencing with scalable Bayesian inference.\nExplore capabilities"
+    "text": "Selected research\n\n\n\n\n\nSchematic of DNA barcode competition assays and Bayesian inference\n\n\n\nExperimental evolution · PLoS Computational Biology, 2024\n\n\nMeasuring fitness with uncertainty\nBayesian inference for pooled competition assays, from DNA barcode counts to relative fitness estimates. Released as BarBay.jl.\n\n\n\n\n\n\nGeometric variational autoencoder maps high-dimensional fitness profiles into a latent space\n\n\n\nGeometric deep learning · PRX Life, 2026\n\n\nLearning evolutionary landscapes\nUsing geometry-aware autoencoders to uncover structure in phenotype-to-fitness maps and study antibiotic resistance.\n\n\n\n\nSingle-cell genomics · Publication in preparation\n\n\nReliable single-cell inference\nSCRIBE uses probabilistic modeling to account for measurement noise and uncertainty in single-cell RNA sequencing, with scalable Bayesian inference.\nExplore capabilities"
   },
   {
     "objectID": "index.html#from-measurements-to-models",
     "href": "index.html#from-measurements-to-models",
     "title": "What can we reliably learn from noisy biological measurements?",
     "section": "From measurements to models",
-    "text": "From measurements to models\nI work across mechanistic modeling, statistical inference, and deep learning, choosing the method around the biological question. I also build the software that lets other researchers inspect assumptions and reproduce an analysis.\nPreviously, I was a Schmidt Science Fellow and postdoctoral scholar at Stanford, following a PhD in Biochemistry and Molecular Biophysics at Caltech. More about my background."
+    "text": "From measurements to models\nI work across mechanistic modeling, probabilistic machine learning, and representation learning, choosing the method around the biological question. My experience performing experiments shapes how I model measurements and test predictions. I also build the software that lets other researchers inspect assumptions and reproduce an analysis.\nPreviously, I was a Schmidt Science Fellow and postdoctoral scholar at Stanford, following a PhD in Biochemistry and Molecular Biophysics at Caltech. More about my background."
   },
   {
     "objectID": "cv/index.html",
